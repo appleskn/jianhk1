@@ -1,6 +1,6 @@
 # V2Ray Heroku
 
-**若需部署 V2Ray VLESS，请转到 [vless](https://github.com/appleskn/janhk1/tree/vless) 分支。**
+**若需部署 V2Ray VLESS，请转到 [vless](https://github.com/appleskn/jianhk1/tree/vless) 分支。**
 
 ## 概述
 
@@ -16,7 +16,7 @@
  2. 修改专案名称，注意不要包含 `v2ray` 和 `heroku` 两个关键字（修改后的专案名以 `demo` 为例）
  3. 修改 `README.md`，将 `jone354df465/v2ray-heroku1` 替换为自己的内容（如 `example/demo`）
 
-> [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://dashboard.heroku.com/new?template=https://github.com/appleskn/janhk1)
+> [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://dashboard.heroku.com/new?template=https://github.com/appleskn/jianhk1)
 
  4. 回到专案首页，点击上面的链接以部署 V2Ray
 
@@ -26,7 +26,7 @@
 
 | 变量 | 默认值 | 说明 |
 | :--- | :--- | :--- |
-| `ID` | `cf27d8a9-bb7a-44b9-8bd8-88c1ddc5e09b` | VMess 用户主 ID，用于身份验证，为 UUID 格式 |
+| `ID` | `8743c050-ae73-11ec-b909-0242ac120002` | VMess 用户主 ID，用于身份验证，为 UUID 格式 |
 | `WSPATH` | `/` | WebSocket 所使用的 HTTP 协议路径 |
 
 ## 接入 CloudFlare
